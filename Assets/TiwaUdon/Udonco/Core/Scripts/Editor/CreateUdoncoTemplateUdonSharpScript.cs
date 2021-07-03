@@ -12,7 +12,7 @@ namespace TiwaUdon.Editor
     {
         private static string templateTextAssetPath = @"Assets/TiwaUdon/Udonco/Core/Scripts/Editor/CutomEventInterfaceTemplate.txt";
         
-        [MenuItem("Assets/Create/U# Script TiwaUdon Command", false, 5)]
+        [MenuItem("Assets/Create/Udonco Command U# Script", false, 5)]
         private static void CreateUSharpScript()
         {
             UdoncoTemplateHelper.CreateUSharpScript(templateTextAssetPath);
