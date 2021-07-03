@@ -21,7 +21,7 @@ English Reference (Not currently supported 🙇)
 
 
 Udonco Schematic Diagram (Command design pattern)
-![image](https://user-images.githubusercontent.com/64125357/124367082-43bfa800-dc8f-11eb-9cf2-8bb96c9342dc.png)
+![image](https://user-images.githubusercontent.com/64125357/124368313-0c56f880-dc9b-11eb-9055-0452ea81fae8.png)
 
 
 ### Sample Scene explanation
