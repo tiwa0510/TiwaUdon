@@ -19,9 +19,9 @@ namespace TiwaUdon.Udonco
         [SerializeField] private bool IsNetwork;
         [SerializeField] private NetworkEventTarget NetworkEventTarget;
 
-        public VRCPlayerApi param_player;
-        public Collision param_collision;
-        public Collider param_collider;
+        [HideInInspector] public VRCPlayerApi param_player;
+        [HideInInspector] public Collision param_collision;
+        [HideInInspector] public Collider param_collider;
 
         public void SetupCustomEvent(UdonSharpBehaviour _target, string _eventName)
         {
