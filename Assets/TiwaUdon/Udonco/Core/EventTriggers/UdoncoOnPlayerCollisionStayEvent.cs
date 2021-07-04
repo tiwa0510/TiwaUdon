@@ -18,6 +18,7 @@ namespace TiwaUdon.Udonco
             
             for (int i = 0; i < Invokers.Length; i++)
             {
+                Invokers[i].param_player = player;
                 Invokers[i].InvokeCustomEvent();
             }
         }

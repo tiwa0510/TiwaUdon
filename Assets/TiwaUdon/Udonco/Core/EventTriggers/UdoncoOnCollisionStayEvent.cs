@@ -19,6 +19,7 @@ namespace TiwaUdon.Udonco
             {
                 for (int i = 0; i < Invokers.Length; i++)
                 {
+                    Invokers[i].param_collision = other;
                     Invokers[i].InvokeCustomEvent();
                 }
             }
