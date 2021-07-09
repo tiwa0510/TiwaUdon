@@ -6,7 +6,7 @@ using UdonSharp;
 
 namespace TiwaUdon.Udonco
 {
-    [AddComponentMenu("Udonco/Core/EventTrigger/<TemplateClassName>")]
+    [AddComponentMenu("Udonco/User/EventTrigger/<TemplateClassName>")]
     public class <TemplateClassName> : UdonSharpBehaviour 
     {
         [SerializeField] private CustomEventInvoker[] Invokers;

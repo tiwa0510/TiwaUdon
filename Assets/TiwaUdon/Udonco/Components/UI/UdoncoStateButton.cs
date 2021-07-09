@@ -35,7 +35,7 @@ namespace TiwaUdon.Udonco.UI
                 EnableStateObject.SetActive(state);
             }
 
-            if (EnableStateObject != null)
+            if (DisableStateObject != null)
             {
                 DisableStateObject.SetActive(!state);
             }
