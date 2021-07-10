@@ -19,19 +19,18 @@ English Reference (Not currently supported 🙇)
 
 ## License (JP)
 
-このリポジトリに含まれる、音声ファイル以外のアセットは MIT License です。  
-このリポジトリに含まれる音声ファイルは、Tsugi の GameSynth を使用して作成しています。音声ファイルを二次配布する場合は、配布するパッケージ/フォルダに以下のような記載をお願いします。  
+このリポジトリに含まれる音声ファイル以外のアセットは MIT License です。  
+このリポジトリに含まれる音声ファイル(.wavファイル)については二次配布禁止です。
 
-> このパッケージに含まれるサウンドの一部は、Tsugi の GameSynth を使用して作成しています
+このリポジトリに含まれる音声ファイルは、Tsugi の GameSynth を使用して作成しています
 
 ライセンスの完全な詳細については、[LICENSEファイル](https://github.com/tiwa0510/TiwaUdon/blob/main/LICENSE)を確認してください
 
 ## License (EN)
 
 All assets in this repository except for the audio files are under the MIT License.  
-The audio files included in this repository were created using Tsugi's GameSynth.  
-If you wish to distribute the sound files secondarily, please include the following statement in the package/folder you distribute.  
+The audio files (.wav files) contained in this repository are not for distribution.
 
-> GameSynth from Tsugi was used to generate some of the sound effects in this package. 
+GameSynth from Tsugi was used to generate some of the sound effects in this epository
 
 Check the [LICENSE file](https://github.com/tiwa0510/TiwaUdon/blob/main/LICENSE) for full details of the license.
