@@ -39,7 +39,7 @@ This repository must be used in accordance with the following terms of use:
 Used under the MIT License. Please check [here](https://raw.githubusercontent.com/tiwa0510/TiwaUdon/main/Assets/TiwaUdon/Udonco/Core/Scripts/Editor/LICENSE.txt)
 
 2. audio file (.wav) assets  
-redistribution is prohibited.
+not for redistribution.
 
 3. assets other than the above  
 Available in CC0 License.
