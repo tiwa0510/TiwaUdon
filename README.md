@@ -24,11 +24,11 @@ English Reference (Not currently supported 🙇)
 1. TiwaUdon/Assets/TiwaUdon/Udonco/Core/Scripts/Editor/UdoncoTemplateHelper.cs  
 MIT License に従って利用されています。ライセンスは[こちら](https://raw.githubusercontent.com/tiwa0510/TiwaUdon/main/Assets/TiwaUdon/Udonco/Core/Scripts/Editor/LICENSE.txt)を確認してください。
 
-2. 1.以外の音声ファイル(.wav)を除くアセット  
-CC0で利用できます。
-
-3. 音声ファイル(.wav)アセット  
+2. 音声ファイル(.wav)アセット  
 二次配布禁止です。
+
+3. 上記以外のアセット  
+CC0で利用できます。
 
 このリポジトリに含まれる音声ファイルは、Tsugi の GameSynth を使用して作成しています
 
@@ -38,10 +38,10 @@ This repository must be used in accordance with the following terms of use:
 1. TiwaUdon/Assets/TiwaUdon/Udonco/Core/Scripts/Editor/UdoncoTemplateHelper.cs  
 Used under the MIT License. Please check [here](https://raw.githubusercontent.com/tiwa0510/TiwaUdon/main/Assets/TiwaUdon/Udonco/Core/Scripts/Editor/LICENSE.txt)
 
-2. assets except audio files (.wav) except 1.  
-Can be used with CC0 License.
-
-3. audio file (.wav) assets  
+2. audio file (.wav) assets  
 redistribution is prohibited.
+
+3. assets other than the above  
+Available in CC0 License.
 
 GameSynth from Tsugi was used to generate some of the sound effects in this repository.
