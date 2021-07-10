@@ -29,8 +29,8 @@ English Reference (Not currently supported 🙇)
 ## License (EN)
 
 All assets in this repository except for the audio files are under the MIT License.  
-The audio files (.wav files) contained in this repository are not for distribution.
+The audio files (.wav files) contained in this repository are not for redistribution.
 
-GameSynth from Tsugi was used to generate some of the sound effects in this epository
+GameSynth from Tsugi was used to generate some of the sound effects in this repository
 
 Check the [LICENSE file](https://github.com/tiwa0510/TiwaUdon/blob/main/LICENSE) for full details of the license.
