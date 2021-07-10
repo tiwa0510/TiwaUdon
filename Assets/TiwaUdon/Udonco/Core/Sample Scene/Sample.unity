@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 102297535}
   - component: {fileID: 102297536}
   m_Layer: 0
-  m_Name: SetGameObjectActive
+  m_Name: '[Command] SetGameObjectActive'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,12 +137,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 102297533}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1111607145}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &102297535
 MonoBehaviour:
@@ -207,12 +207,12 @@ GameObject:
   - component: {fileID: 181921365}
   - component: {fileID: 181921364}
   - component: {fileID: 181921363}
-  - component: {fileID: 181921368}
-  - component: {fileID: 181921367}
   - component: {fileID: 181921370}
   - component: {fileID: 181921369}
+  - component: {fileID: 181921368}
+  - component: {fileID: 181921367}
   m_Layer: 13
-  m_Name: PickUp
+  m_Name: '[Event] PickUpUseUp/Down'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -284,7 +284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 181921362}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.03, y: 1.215, z: -2.1408873}
+  m_LocalPosition: {x: -3, y: 1.215, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
@@ -404,7 +404,7 @@ GameObject:
   - component: {fileID: 315535310}
   - component: {fileID: 315535314}
   m_Layer: 0
-  m_Name: Interact
+  m_Name: '[Event] InteractEvent'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -476,7 +476,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315535309}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.1044161, y: 1.215, z: -2.1408873}
+  m_LocalPosition: {x: 3, y: 1.215, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
@@ -671,42 +671,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 821480767}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.215, z: 5.43}
+  m_LocalPosition: {x: 0, y: 1.215, z: 5}
   m_LocalScale: {x: 0.50692165, y: 0.50692165, z: 0.50692165}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1111607144
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1111607145}
-  m_Layer: 0
-  m_Name: '[Event]'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1111607145
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1111607144}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 102297534}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1176160520
 GameObject:
@@ -723,7 +692,7 @@ GameObject:
   - component: {fileID: 1176160525}
   - component: {fileID: 1176160526}
   m_Layer: 0
-  m_Name: PlayerTrigger BoxCollider
+  m_Name: '[Event] OnPlayerTriggerEnter/Exit'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -795,7 +764,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176160520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.51, y: 1.215, z: -2.1408873}
+  m_LocalPosition: {x: 5, y: 1.215, z: 0}
   m_LocalScale: {x: 2.273478, y: 2.5152152, z: 2.4032977}
   m_Children: []
   m_Father: {fileID: 0}
@@ -937,7 +906,7 @@ GameObject:
   - component: {fileID: 1498043751}
   - component: {fileID: 1498043752}
   m_Layer: 0
-  m_Name: IsTrigger BoxCollider
+  m_Name: '[Event] OnTriggerEnter/Exit'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1009,7 +978,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1498043746}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.2544165, y: 1.215, z: -2.1408873}
+  m_LocalPosition: {x: -5, y: 1.215, z: 0}
   m_LocalScale: {x: 2.273478, y: 2.5152152, z: 2.4032977}
   m_Children: []
   m_Father: {fileID: 0}

@@ -7,7 +7,7 @@ using VRC.Udon.Common.Enums;
 namespace TiwaUdon.Udonco.UI
 {
     [AddComponentMenu("Udonco/UI/UdoncoStateButton")]
-    public class UdoncoStateButton : UdonSharpBehaviour
+    public class UdoncoButton : UdonSharpBehaviour
     {
         [SerializeField] private bool InitialState;
 
@@ -18,10 +18,6 @@ namespace TiwaUdon.Udonco.UI
         [SerializeField] private Animator PressAnimator;
         [SerializeField] private bool playPressAnimation;
 
-        [Header("Button")]
-        [SerializeField] private Button thisButton;
-        [SerializeField] private Text thisButtonText;
-        
         void Start()
         {
             state = InitialState;
@@ -63,7 +59,7 @@ namespace TiwaUdon.Udonco.UI
             }
         }
         
-        public void OnPressButton()
+        public void OnClickButtonEvent()
         {
             UpdateStateButton();
             if (playPressAnimation)

@@ -17,32 +17,35 @@ public class UdoncoObjectStateButton : UdonSharpBehaviour
     [SerializeField] private Animator PressAnimator;
     [SerializeField] private bool playPressAnimation;
 
-    [Header("Button")]
-    [SerializeField] private Button thisButton;
-    [SerializeField] private Text thisButtonText;
-    
     void Start()
     {
-        state = StateTarget.activeSelf;
+        if (StateTarget != null)
+        {
+            state = StateTarget.activeSelf;
+        }
+
         UpdateStateButton();
     }
 
     public void UpdateStateButton()
     {
-        state = StateTarget.activeSelf;
-        
+        if (StateTarget != null)
+        {
+            state = StateTarget.activeSelf;
+        }
+
         if (EnableStateObject != null)
         {
             EnableStateObject.SetActive(state);
         }
 
-        if (EnableStateObject != null)
+        if (DisableStateObject != null)
         {
             DisableStateObject.SetActive(!state);
         }
     }
 
-    public void OnPressButton()
+    public void OnClickButtonEvent()
     {
         UpdateStateButton();
         if (playPressAnimation)
