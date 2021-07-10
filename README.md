@@ -2,7 +2,7 @@
 
 ## Reference
 
-[日本語リファレンス](https://hackmd.io/@vwcc/SJYNiHR2O)  
+[日本語リファレンス](https://hackmd.io/@vwcc/r1WDyh86_)  
 English Reference (Not currently supported 🙇)
 
 ## Setup
