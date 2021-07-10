@@ -24,7 +24,7 @@ English Reference (Not currently supported 🙇)
 
 このリポジトリに含まれる音声ファイルは、Tsugi の GameSynth を使用して作成しています
 
-ライセンスの完全な詳細については、[LICENSEファイル](https://github.com/tiwa0510/TiwaUdon/blob/main/LICENSE)を確認してください
+ライセンスの完全な詳細については、[LICENSEファイル](https://raw.githubusercontent.com/tiwa0510/TiwaUdon/main/LICENSE)を確認してください
 
 ## License (EN)
 
@@ -33,4 +33,4 @@ The audio files (.wav files) contained in this repository are not for redistribu
 
 GameSynth from Tsugi was used to generate some of the sound effects in this repository
 
-Check the [LICENSE file](https://github.com/tiwa0510/TiwaUdon/blob/main/LICENSE) for full details of the license.
+Check the [LICENSE file](https://raw.githubusercontent.com/tiwa0510/TiwaUdon/main/LICENSE) for full details of the license.
