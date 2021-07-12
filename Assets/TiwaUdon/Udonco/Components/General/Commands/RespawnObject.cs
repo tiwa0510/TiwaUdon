@@ -6,7 +6,7 @@ using UdonSharp;
 
 namespace TiwaUdon.Udonco
 {
-    [AddComponentMenu("Udonco/User/Commands/RespownObject")]
+    [AddComponentMenu("Udonco/General/Commands/RespownObject")]
     public class RespawnObject : UdonSharpBehaviour
     {
         [SerializeField] private Transform Receiver;
