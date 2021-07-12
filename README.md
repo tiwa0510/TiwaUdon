@@ -1,9 +1,17 @@
 # TiwaUdon
 
+[チワ](https://twitter.com/tiwa_null)の制作したUdon集  
+[release](https://github.com/tiwa0510/TiwaUdon/releases)にあるunitypackageをインポートする形で利用してください  
+Udonco(下記)の取扱いには手順があるのでリファレンスを参照してください。  
+
+## Udonco
+
+Udonのギミックをイベントとロジックに分離し手効率よく管理しようとしたUdonテンプレート集  
+
+
 ## Reference
 
-[日本語リファレンス](https://hackmd.io/@vwcc/SJYNiHR2O)  
-English Reference (Not currently supported 🙇)
+[日本語リファレンス](https://hackmd.io/@vwcc/r1WDyh86_)  
 
 ## Setup
 
@@ -19,7 +27,9 @@ English Reference (Not currently supported 🙇)
 2. **Import UdoncoCore.unitypackage**
 3. Import Other Udonco package
 
-## License (JP)
+# License
+
+## JP
 
 このリポジトリは以下の利用規約に従って利用してください
 
@@ -34,7 +44,7 @@ CC0で利用できます。
 
 このリポジトリに含まれる音声ファイルは、Tsugi の GameSynth を使用して作成しています
 
-## License (EN)
+## EN
 This repository must be used in accordance with the following terms of use:
 
 1. TiwaUdon/Assets/TiwaUdon/Udonco/Core/Scripts/Editor/UdoncoTemplateHelper.cs  
